@@ -1,8 +1,4 @@
-.lorem a{
-	display: inline-block;
-	background-color: #111111;
-	line-height: 50px;
-	font-size: 11px;
-	margin-bottom: 30px;
-
+.btn-primary{
+	@include button-variant($primary, $primary);
+	color: $white;
 }
